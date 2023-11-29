@@ -42,6 +42,14 @@ int main(int argc, char const *argv[])
         }
         printf("\n");
     }
+    for (i = 0; i < fila; i++) // suma matriz
+    {
+        for (j = 0; j < columna; j++)
+        {
+            suma[i][j] = matrizA[i][j] + matrizB[i][j];
+        }
+    }
+    
 
     return 0;
 }
