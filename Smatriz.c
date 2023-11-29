@@ -22,6 +22,15 @@ int main(int argc, char const *argv[])
             matrizB[i][j] = rand() % 101;
         }
     }
-    
+    printf("\n");
+    printf("La MATRIZ  1 es:\n");
+    for (i = 0; i < fila; i++)
+    {
+        for (j = 0; j < columna; j++)
+        {
+            printf("%d ", matrizA[i][j]);
+        }
+       
+
     return 0;
 }
