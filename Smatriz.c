@@ -58,7 +58,7 @@ int main(int argc, char const *argv[])
         {
             printf("%d ", suma[i][j]); // se imprime la matriz "suma"
         }
-        printf("\n");
+        printf("\n");  //salto de linea
     }
     return 0;
 }
