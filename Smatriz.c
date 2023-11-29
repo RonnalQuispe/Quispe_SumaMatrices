@@ -5,7 +5,7 @@ int main(int argc, char const *argv[])
 {
     int fila, columna;
     int i, j;
-    
+
     printf("ingrese la dimension de la fila:");
     scanf("%d", &fila);
     printf("ingrese la dimension de la columna:");
@@ -18,8 +18,8 @@ int main(int argc, char const *argv[])
     {
         for (j = 0; j < columna; j++)
         {
-            matrizA[i][j] = rand() % 101;
-            matrizB[i][j] = rand() % 101;
+            matrizA[i][j] = rand() % 101; // generamos numeros aleatorios entre 1-100 para la matriz A
+            matrizB[i][j] = rand() % 101; // generamos numeros aleatorios entre 1-100 para la matriz B
         }
     }
     printf("\n");
@@ -28,7 +28,7 @@ int main(int argc, char const *argv[])
     {
         for (j = 0; j < columna; j++)
         {
-            printf("%d ", matrizA[i][j]);
+            printf("%d ", matrizA[i][j]); // imprimimos la Fila y columna de la matriz A
         }
         printf("\n");
     }
@@ -38,7 +38,7 @@ int main(int argc, char const *argv[])
     {
         for (j = 0; j < columna; j++)
         {
-            printf("%d ", matrizB[i][j]);
+            printf("%d ", matrizB[i][j]); // imprimimos la Fila y columna de la matriz A
         }
         printf("\n");
     }
@@ -46,17 +46,17 @@ int main(int argc, char const *argv[])
     {
         for (j = 0; j < columna; j++)
         {
-            suma[i][j] = matrizA[i][j] + matrizB[i][j];
+            suma[i][j] = matrizA[i][j] + matrizB[i][j]; // realizamos la suma de la matrizA y matriz B en la matriz "suma"
         }
     }
-    
-printf("\n");
+
+    printf("\n");
     printf("la suma de matriz 1 y matriz2  es:\n");
     for (i = 0; i < fila; i++)
     {
         for (j = 0; j < columna; j++)
         {
-            printf("%d ", suma[i][j]);
+            printf("%d ", suma[i][j]); // se imprime la matriz "suma"
         }
         printf("\n");
     }
