@@ -30,7 +30,18 @@ int main(int argc, char const *argv[])
         {
             printf("%d ", matrizA[i][j]);
         }
-       
+        printf("\n");
+    }
+    printf("\n");
+    printf("la MATRIZ 2 es\n");
+    for (i = 0; i < fila; i++)
+    {
+        for (j = 0; j < columna; j++)
+        {
+            printf("%d ", matrizB[i][j]);
+        }
+        printf("\n");
+    }
 
     return 0;
 }
