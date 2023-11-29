@@ -50,6 +50,15 @@ int main(int argc, char const *argv[])
         }
     }
     
-
+printf("\n");
+    printf("la suma de matriz 1 y matriz2  es:\n");
+    for (i = 0; i < fila; i++)
+    {
+        for (j = 0; j < columna; j++)
+        {
+            printf("%d ", suma[i][j]);
+        }
+        printf("\n");
+    }
     return 0;
 }
